@@ -20,8 +20,7 @@ export default function Feedback(props) {
       id="feedback"
       role="status"
       aria-live="assertive"
-      aria-atomic="true"
-    >
+      aria-atomic="true">
       {props.feedback} {guessAgain}
     </h2>
   );
